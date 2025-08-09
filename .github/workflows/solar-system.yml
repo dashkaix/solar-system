@@ -13,7 +13,6 @@ env:
     MONGO_PASSWORD: SuperPassword  
 jobs:
     unit-testing:
-    
         name: Unit Testing
         runs-on: ubuntu-latest
         steps:
@@ -37,8 +36,6 @@ jobs:
             name: Mocha test result
             path: test-results.xml 
    
-            docker:
-      name: docker
     docker: 
       name: containerization
       needs: [unit-testing]
