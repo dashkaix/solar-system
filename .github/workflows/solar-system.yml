@@ -55,6 +55,6 @@ jobs:
         with:
           context: .
           push: true
-          tags: ${{vars.dockerhub_username}}/solar-system:v1 
+          tags: ${{vars.dockerhub_username}}/solar-system:v1  
 
 
