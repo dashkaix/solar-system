@@ -55,6 +55,6 @@ jobs:
         with:
           context: .
           push: true
-          tags: ${{secrets.dockerhub_username}}/solar-systemm:1.0  
+          tags: ${{secrets.dockerhub_username}}/solar-system:2.0  
 
 
